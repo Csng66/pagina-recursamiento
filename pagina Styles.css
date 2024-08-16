@@ -1,0 +1,153 @@
+pagina Styles
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffff1; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de menú */
+nav {
+    background-color: #223b82; /* Fondo azul cielo */
+    color: #ffffff; /* Texto blanco */
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Texto blanco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección del producto */
+#producto h1 {
+    text-align: center;
+    margin-top: 80px; /* Espacio para la barra de menú */
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 70%; /* Menor anchura para hacerla más delgada */
+    max-width: 600px; /* Máximo tamaño para que sea más rectangular y ancha */
+    height: auto;
+    max-height: 300px; /* Limita la altura para mantener la proporción baja */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container p {
+    font-style: italic;
+}
+
+/* Sección de Ventajas */
+#ventajas {
+    padding: 20px;
+    text-align: center;
+}
+
+.ventajas-contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagen-interna {
+    flex: 1;
+    text-align: center;
+}
+
+.interior-img {
+    width: 70%; /* Menor anchura para hacerla más delgada */
+    max-width: 800px; /* Reduce el tamaño máximo para que sea más estrecha */
+    height: auto%;
+    max-height: 600px; /* Aumenta la altura máxima para hacerla tres veces más alta */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ventajas-lista {
+    flex: 1;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 10px;
+}
+
+.ventajas-lista li {
+    margin-bottom: 15px;
+}
+
+/* Preguntas Frecuentes */
+#faq {
+    padding: 20px;
+}
+
+.faq-item {
+    background-color: #223b82; /* Fondo azul cielo */
+    color: #ffffff; /* Texto blanco */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+/* Imagen a lo largo */
+.producto-largo-img {
+    width: 70%; /* Menor anchura para hacerla más delgada */
+    max-width: 600px; /* Reduce el tamaño máximo para que sea más estrecha */
+    height: auto;
+    max-height: 300px; /* Limita la altura para mantener la proporción baja */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Redes Sociales */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Espaciado entre imágenes de redes sociales */
+}
+
+
+/* Estilo de los íconos de redes sociales */
+.social-links a img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilo de la sección de contacto */
+#contacto {
+    margin: 50px 0;
+    text-align: center;
+}
