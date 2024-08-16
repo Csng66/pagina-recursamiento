@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 .image-container img {
-    width: 70%; /* Menor anchura para hacerla más delgada */
+    width: auto%; /* Menor anchura para hacerla más delgada */
     max-width: 600px; /* Máximo tamaño para que sea más rectangular y ancha */
     height: auto;
     max-height: 300px; /* Limita la altura para mantener la proporción baja */
@@ -70,7 +70,7 @@ nav ul li a {
 }
 
 .ventajas-contenedor {
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
